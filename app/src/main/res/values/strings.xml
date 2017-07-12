@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MeiQiJiaJu</string>
+    <string name="home">服务大厅</string>
+    <string name="shop">商户商品</string>
+    <string name="search">发布需求</string>
+    <string name="my">会员中心</string>
+</resources>

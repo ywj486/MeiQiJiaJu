@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.ywj.meiqijiaju.wight.ShopToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:title="服务大厅"
+        android:id="@+id/toolbar"
+        />
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/main_bottom_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/orange">
+
+        <RadioButton
+            android:id="@+id/main_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawablePadding="@dimen/little_space"
+            android:drawableTop="@drawable/main_botom_icon_select"
+            android:gravity="center"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="服务大厅"
+            android:textColor="@color/select_tab_text" />
+
+        <RadioButton
+            android:id="@+id/main_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawablePadding="@dimen/little_space"
+            android:drawableTop="@drawable/tuan_botom_icon_select"
+            android:gravity="center"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="商户商品"
+            android:textColor="@color/select_tab_text" />
+
+        <RadioButton
+            android:id="@+id/main_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="@dimen/little_space"
+            android:drawableTop="@drawable/search_botom_icon_select"
+            android:gravity="center"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="发布需求"
+            android:textColor="@color/select_tab_text" />
+
+        <RadioButton
+            android:id="@+id/main_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="@dimen/little_space"
+            android:drawableTop="@drawable/my_botom_icon_select"
+            android:gravity="center"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="会员中心"
+            android:textColor="@color/select_tab_text" />
+
+    </RadioGroup>
+</LinearLayout>

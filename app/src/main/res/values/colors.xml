@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF7231</color>
+    <color name="colorPrimaryDark">#FF7231</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="orange">#FF7231</color>
+    <color name="write">#ffffff</color>
+    <color name="green">#B7B7B7</color>
+    <color name="black">#000000</color>
+    <color name="rad">#FF0000</color>
+    <color name="yellow">#FFA500</color>
+
+</resources>
